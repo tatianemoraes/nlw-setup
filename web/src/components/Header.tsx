@@ -10,7 +10,6 @@ export function Header() {
       <Dialog.Root>
         <Dialog.Trigger 
           type='button'
-          onClick={() => console.log('oi')}
           className='border border-violet-500 font-semibold rounded-lg px-6 py-4 flex items-center gap-3 hover:border-violet-300'
         >
           <Plus size={20} className="text-violet-500" />
@@ -25,7 +24,6 @@ export function Header() {
             <Dialog.Title className="text-3xl leading-tight font-extrabold">
               Criar Hábito
             </Dialog.Title>
-
             <NewHabitForm />
           </Dialog.Content>
         </Dialog.Portal>
